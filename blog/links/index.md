@@ -6,14 +6,16 @@ comments: yes
 
 ### Personal webpage
 
-- [Lingfei Wu](http://lingfeiwu.github.io): About me
-- [Blog](http://lingfeiwu.github.io/blog/): Blog
+- [Cheng-Jun Wang](http://chengjun.github.io/): About me.
+- [Blog](http://chengjun.github.io/cn/): Chinese blog.
+- [Blog](http://chengjun.github.io/en/): English blog.
+- [CV](http://chengjun.github.io/cv/): My CV
+- [Slides](http://chengjun.github.io/slides/): My slides.
 
-### My institutions 
+### Web Mining Lab
 
-- [Web Mining Lab](weblab.com.cityu.edu.hk/): My PhD Lab
-- [CSID](https://csid.asu.edu/): My current institution
+- [Web Mining Lab](weblab.com.cityu.edu.hk/): Lab website.
 
+### R Language
 
-
-
+- [The R Project](http://www.r-project.org/)

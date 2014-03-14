@@ -1,8 +1,10 @@
 My blog 
 ==
-This template is copied from my friend Frank [Frank's github](http://chengjun.github.io/). His help in setting up this version is greatly appreciated. The following notes are also copied from his blog.
+This template is copied from [Frank's github](http://chenjun.github.io). I appreciate his help in setting up my own version of github blog. The following notes are also copied from him.
 
-## Setting up Headers
+
+##  Set up the Headers
+However, to use it, you have to set the headers of markdown formally. When you write the md file, you have to define the headers. When you mark the categories and tags, do forget to put a blank space between  "-" and your categories or tags. For example: https://raw.github.com/chengjun/cn/gh-pages/_posts/2013-09-07-part-of-speech-analysis-with-opennlp.markdown
 
         ---
         layout: post
@@ -22,6 +24,7 @@ http://christopherpoole.github.io/using-mathjax-on-github-pages/
 
 1. modify your _config.yml by setting markdown: kramdown
 2. add the following script to default.html in the layout folder
+
 
 	    <!--mathjax start-->
 	    <script type="text/javascript"
