@@ -1,0 +1,62 @@
+<!-- Map generated in R 2.13.1 by googleVis 0.2.8 package -->
+<!-- Fri Dec 02 11:49:17 2011 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript" src="http://www.google.com/jsapi">
+</script>
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMapID358d1929 ()
+{
+  var data = new google.visualization.DataTable();
+  var datajson =
+[
+ [
+ "City university of Hong kong",
+"Main Campus" 
+],
+[
+ "18 Tat Hong Avenue",
+"CMC & Residence Hall" 
+] 
+];
+data.addColumn('string','Address');
+data.addColumn('string','Tip');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMapID358d1929() {
+  var data = gvisDataMapID358d1929()
+  var chart = new google.visualization.Map(
+   document.getElementById('MapID358d1929')
+  );
+  var options ={};
+options["showTip"] = true;
+options["mapType"] = "normal";
+options["enableScrollWheel"] = true;
+  chart.draw(data,options);
+  
+}
+ 
+// jsDisplayChart 
+function displayChartMapID358d1929()
+{
+  google.load("visualization", "1", { packages:["map"] }); 
+  google.setOnLoadCallback(drawChartMapID358d1929);
+}
+ 
+// jsChart 
+displayChartMapID358d1929()
+ 
+<!-- jsFooter -->  
+//-->
+</script>
+ 
+<!-- divChart -->
+<div id="MapID358d1929"
+  style="width: 600px; height: 500px;">
+</div>
