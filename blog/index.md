@@ -1,5 +1,5 @@
 ---
-title: Computational Communication
+title: Timeline
 layout: page
 ---
 
