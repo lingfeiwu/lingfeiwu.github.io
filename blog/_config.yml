@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: /:year/:month/:title/
-url: http://lingfeiwu.github.io/blog/
+url: http://lingfeiwu.github.io/
 author: Lingfei Wu
 pygments: true
 
