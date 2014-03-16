@@ -1,10 +1,10 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: "rusty shutter"
+name: "Eadem mutata resurgo"
 markdown: rdiscount
 
-author: "wayne"
+author: "lingfei"
 atom-baseurl: "lingfeiwu.github.io"
 disqus: "gopherwood"
 
@@ -18,9 +18,6 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Gallery
-    class: fa fa-film
-    href: lingfeiwu.github.io
   - title: Blogroll
     class: fa fa-link
     href: /links.html

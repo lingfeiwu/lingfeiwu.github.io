@@ -1,22 +1,18 @@
 ---
-title: about
+title: Lingfei Wu
 layout: page
 ---
 
-a
+A
 
-> Minimalist | Appleist | Unixer | Coder
+> Scientist | Coder | Minimalist
 
-who involved in 
+who is working at 
 
-> [github](https://github.com/waynezhang)
+> [CSID](https://csid.asu.edu)
 
-mail 
+Mail 
 
-> echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.
-
-or follow 
-
-> [@o_lll](https://twitter.com/#!/o_lll)
+> Lingfei DOT Wu AT asu DOT eud
 
 to reach me
