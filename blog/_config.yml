@@ -1,6 +1,0 @@
-markdown: kramdown
-permalink: /:year/:month/:title/
-url: http://lingfeiwu.github.io/blog/
-author: Lingfei Wu
-pygments: true
-
