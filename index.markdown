@@ -21,7 +21,7 @@ layout: default
     </span>
     {% endif %}
     <!-- BEGIN this would not work on any other domain -->
-    <span id="like-wrapper"></span>
+    <!--span id="like-wrapper"></span>
     <script type="text/javascript">
       var like_shortname      = '{{ site.disqus }}';
       var like_identifier     = '{{ post.guid }}';
