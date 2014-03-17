@@ -13,7 +13,7 @@ who is working at
 
 Mail 
 
-> Lingfei DOT Wu AT asu DOT eud
+> Lingfei DOT Wu AT asu DOT edu
 
 to reach me, or download 
 
