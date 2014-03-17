@@ -1,5 +1,5 @@
 ---
-title: rat, elephant, and tortoise on social media
+title: Rat, elephant, and tortoise on social media
 layout: post
 guid: 
 tags:
@@ -8,7 +8,7 @@ tags:
 ---
 
 
-Social movements are different. Some burst and die within several days and some others last for years or even decades. So how can we classify and predict the types of social movements ? Here is a idea. Let's start from the temporal distribution of social movements:
+Social movements are different. Some burst and die within several days and some others last for years or even decades. So how can we classify and predict the types of social movements ? Here is an idea. Let's start from the temporal distribution of social movements:
 
 ![bell](/media/files/2014-02-17-rat-elephant-and-tortoise-on-social-media/bell.png)
 
@@ -54,6 +54,8 @@ Actually, we can slightly modify the scheme of the above figure and turn it into
 
 Now we can easily tell the differences between social movements. There are rat, tortoise, and elephant. The factors related to these types goes beyond the scope of this blog, but worth further exploration. 
 
+How to probe into the mesoscopic dynamics of the social movements, concerning their types ? One way to do this is to look into the flow networks of collective attention. Let's consider social movement as "Collaborative Narrative" in a "word space".  Participants enter into this space and generate individual clickstreams (a sequence of words) to express their statement. The individual clickstreams (statements of individual participants) and the background structure (opinion climate) interact with each other and evolves together, leading to the emergence of consensus. It is not always a bad thing that a social movement decays - the reason may be that its statement has already been widely accepted. 
+
 ![network](/media/files/2014-02-17-rat-elephant-and-tortoise-on-social-media/network.png)
 
 	fig = plt.figure(figsize=(6, 6),facecolor='white')
@@ -77,7 +79,5 @@ Now we can easily tell the differences between social movements. There are rat, 
     ax.set_title('tweets as flow networks')
     plt.savefig(directory+'network.png')
     plt.show()
-
-How to probe into the mesoscopic dynamics of the social movements, concerning their types ? One way to do this is to look into the flow networks of collective attention. Let's consider social movement as "Collaborative Narrative" in a "word space".  Participants enter into this space and generate individual clickstreams (a sequence of words) to express their statement. The individual clickstreams (statements of individual participants) and the background structure (opinion climate) interact with each other and evolves together, leading to the emergence of consensus. It is not always a bad thing that a social movement decays - the reason may be that its statement has already been widely accepted. 
 
 We call this method attention network analysis. It can be applied to analyze various of collective human activities. We will show in further blogs how to apply this framework to analyze social movements on Twitter, Wiki, and Youtube. 

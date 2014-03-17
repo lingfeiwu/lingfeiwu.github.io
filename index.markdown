@@ -6,7 +6,7 @@ layout: page
 
 
 
-## Welcome to a minimal new world.
+## Welcome to a brave new world.
 
 
 
