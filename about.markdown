@@ -15,4 +15,8 @@ Mail
 
 > Lingfei DOT Wu AT asu DOT eud
 
-to reach me
+to reach me, or download 
+
+> [CV](http://lingfeiwu.github.io/lingfeiwu.pdf)
+
+to know more about me

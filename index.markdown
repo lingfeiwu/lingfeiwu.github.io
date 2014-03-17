@@ -1,12 +1,12 @@
 ---
-title: About
+title: 
 layout: page
 ---
 
 
 
 
-### Welcome to A Brave New World.
+## Welcome to A Brave New World.
 
 
 
