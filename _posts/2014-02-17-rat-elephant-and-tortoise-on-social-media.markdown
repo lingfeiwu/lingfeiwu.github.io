@@ -1,7 +1,8 @@
 ---
 title: Rat, elephant, and tortoise on social media
 layout: post
-guid: 
+guid:
+comments: true
 tags:
   - social media
   - social movement
