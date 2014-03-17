@@ -21,6 +21,7 @@ Figure 1 Plot with rectangles and vertical lines
 
 Here is the R script:
 
+
 	library(arm)
 	library(alr3) # load the alr3 package (contains data set for illustration)
 	data(highway) # load the highway data set from alr3
@@ -70,4 +71,4 @@ Here is the R script:
 	mtext(side = 1, "Linear Regression Coefficient", line = 3)                                              # label bottom axis
 	mtext(side = 3, "Linear Regression Model of\n the Accident Rate per Million Vehicle Miles", line = 1)   # add title
 	box() 
-{:lang="ruby"}
+
