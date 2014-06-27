@@ -1,0 +1,18 @@
+---
+title: 计算传播学讲义一：网络增长动力学
+layout: post
+guid: 
+tags:
+  - network
+  - data mining
+---
+
+##Barabasi-Albert 模型
+
+在 1999的 [一篇文章里](http://www.barabasilab.com/pubs/CCNR-ALB_Publications/199910-15_Science-Emergence/199910-15_Science-Emergence.pdf), Barabasi 和 Albert 提出了网络增长的优先链接模型. To obtain the degree distribution, they first used "continuous-time mean-field analysis" to track the evolution of the degree of individual nodes and then derive the degree distribution. In subsequent work, Dorogovstev, Mendes and Samukhin ([2000](http://arxiv.org/abs/cond-mat/0004434)), took a different approach, using what they call the “master equation” to obtain rigorous asymptotics for the mean degree of the nodes. The lecture [note](http://economics.mit.edu/files/4624) of Daron Acemoglu and Asu Ozdaglar to explain this method inspired me a lot to analyse the dynamics of attention networks.
+
+First of all, let's analyze BA model as a practice. We assume that 
+
+n is the number of nodes in the network; k is the degree of nodes; m is the fixed number of links carried by every newly added node; p_k is the fraction of nodes with degree k; and p_k,n is the fraction of nodes with degree k when there are n nodes in the network.
+
+The probability of a new link attaches to a node of degree k is propotional to k/sum(k). This probability increases to 
