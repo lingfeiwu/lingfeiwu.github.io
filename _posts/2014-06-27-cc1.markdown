@@ -7,12 +7,117 @@ tags:
   - data mining
 ---
 
-##Barabasi-Albert 模型
+##Barabasi-Albert 模型与主方程解法
 
-在 1999的 [一篇文章里](http://www.barabasilab.com/pubs/CCNR-ALB_Publications/199910-15_Science-Emergence/199910-15_Science-Emergence.pdf), Barabasi 和 Albert 提出了网络增长的优先链接模型. To obtain the degree distribution, they first used "continuous-time mean-field analysis" to track the evolution of the degree of individual nodes and then derive the degree distribution. In subsequent work, Dorogovstev, Mendes and Samukhin ([2000](http://arxiv.org/abs/cond-mat/0004434)), took a different approach, using what they call the “master equation” to obtain rigorous asymptotics for the mean degree of the nodes. The lecture [note](http://economics.mit.edu/files/4624) of Daron Acemoglu and Asu Ozdaglar to explain this method inspired me a lot to analyse the dynamics of attention networks.
+在 1999的 [一篇文章里](http://www.barabasilab.com/pubs/CCNR-ALB_Publications/199910-15_Science-Emergence/199910-15_Science-Emergence.pdf), Barabasi 和 Albert 提出了网络增长的优先链接（preferential attachment）模型. 
 
-First of all, let's analyze BA model as a practice. We assume that 
+他们假设新节点每次携带常数m条边，且每条边链接到老节点的概率与老节点的度成正比。请注意该模型包含增长和优先链接两个部分，只有其中一者的话不足以形成度的长尾分布。为了获得度分布的解析式，他们在论文原文中用的是平均场方法（mean-field analysis）。所谓平均场，就是假设网络增长的过程是平滑、均匀、连续的，所以只要先写出单个节点的度在某一时刻增量的方程，对这个方程做时间上的积分，就可以得到单个节点的度随时间增长的方程。又因为节点是均匀地被添加到网络中的，所以时间t等于网络节点的N，度大于某一个数值的节点一定是在某个特定时刻之前就已经在网络中。从这些思路出发，最后得到网络节点度分布的近似表达，是一个幂指数为-3的幂律度分布。
 
-n is the number of nodes in the network; k is the degree of nodes; m is the fixed number of links carried by every newly added node; p_k is the fraction of nodes with degree k; and p_k,n is the fraction of nodes with degree k when there are n nodes in the network.
+一年之后，Dorogovstev, Mendes 和 Samukhin ([2000](http://arxiv.org/abs/cond-mat/0004434)) 使用另一种叫做主方程的方法（master equation）获得了BA模型度分布的严格表达。 接下来就要对这个方法做一介绍。本文的介绍参考了Daron Acemoglu 和 Asu Ozdaglar 的 [讲义](http://economics.mit.edu/files/4624)。
 
-The probability of a new link attaches to a node of degree k is propotional to k/sum(k). This probability increases to 
+在网络中，我们定义以下几个量：n是网络中节点的数量；k是节点的度；m是每个节点携带的常数连边数量；p_k是网络中度为k的节点的比例；p_k,n是当网络中有n个节点时，网络中度为k的节点的比例。
+
+这样，一个新节点的一条新连边，连接到网络中随机的一个节点的概率是1/n。如果根据BA模型的假设，链接概率与老节点的度成正比，这个概率变成k/sum(k)，也就是归一化以后的度。度为k的这批节点集合众人之力一起抢到一条连边的概率是
+
+$$
+\frac{k}{\sum_{k=1}^{k_{max}} k}n p_k = \frac{k}{\frac{1}{n}\sum_{k=1}^{k_{max}} k}p_k=\frac{k}{2m}p_k.\,\,\,\,\,   (1)
+$$
+
+考虑到每个新节点会带m条连边进入网络，度为k的节点一起抢到的连边数为
+
+$$
+m\frac{k}{2m}p_k= \frac{k}{2}p_k. \,\,\,\,\,   (2)
+$$
+
+在网络增长的过程中，每个节点的度都只增不减。把度看做是财富的话，就相当于所有人的收入一直在增加。如下图所示，每个社会阶层的人口变动包括两个部分，新增的富人（从度k-1变成度为k）和流失的变成更富的人（从度k变成度为k+1）。前者减去后者，就是这个社会阶层的人口变化，可以表达为
+
+$$
+(n+1)p_{k,n+1}-np_{k,n} = \Delta k = \frac{k-1}{2}p_{k-1,n}-\frac{k}{2}p_{k,n}, \,\,\,\,\,   (3)
+$$
+
+Eq.(3) 只适用于k > m的情况. 当k = m, 因为没有更穷的人了，所以不会有从度为 k-1 到 k这部分，唯一可能的阶层新成员是当前时间步新加入网络的那个节点，所以我们应该修改方程为
+
+$$
+(n+1)p_{m,n+1}-np_{m,n} = \Delta m =  1-\frac{m}{2}p_{m,n}, \,\,\,\,\,   (4)
+$$
+
+
+现在让我们假设社会已经发展到一个平衡态，各个财富阶层的人口比例不再变化，也就是
+
+$$
+p_{k,n+1} = p_{k,n} = p_k, \,\,\,\,\,   (5)
+$$
+
+即
+
+$$
+p_k = \frac{k-1}{2}p_{k-1}-\frac{k}{2}p_k, \,\,\,\,\, (k>m) (6)
+$$
+
+和
+
+$$
+p_m = 1-\frac{m}{2}p_m, \,\,\,\,\, (k=m),   (7)
+$$
+
+从以上两个方程中我们可以推得
+
+$$
+\frac{p_k}{p_{k-1}} = \frac{k-1}{k+2} \,\,\,\,\, (k>m),   (8)
+$$
+
+和
+
+$$
+p_m = \frac{2}{m+2} \,\,\,\,\, (k=m).   (9)
+$$
+
+为了得到p_k的表达式，我们构建以下序列 
+
+$$
+\frac{p_k}{p_m} =   \frac{p_{m+1}}{p_{m}} ...\frac{p_{k-1}}{p_{k-2}}\frac{p_k}{p_{k-1}}  \,\,\,\,\,   (10)
+$$
+
+并且找到解
+
+$$
+p_k =   \frac{2m(m+1)}{k(k+1)(k+2)}.  \,\,\,\,\,   (11)
+$$
+
+当k比较大时，Eq.(11) 就是一个指数为-3的幂律富分布。这与Barabasi的原文中给出的解是一致的。
+
+
+##BA模型的Python代码
+
+本代码使用了networkx这个包，代码改造自[这里](http://networkx.lanl.gov/_modules/networkx/generators/random_graphs.html#barabasi_albert_graph)
+
+    import random
+    import networkx as nx
+	
+    # 从一个叫做seq的list中随机选择m个不重复元素
+    def random_subset(seq,m):
+        targets=set()
+        while len(targets)<m:
+            x=random.choice(seq)
+            targets.add(x)
+        return targets
+		
+    #优先链接模型，n为节点数量，m为连边数量
+    def BA(n, m):
+        G=nx.empty_graph(m) #构造包含m个节点0条连边的网络
+        targets=list(range(m)) #第m+1节点进来的时候，把之前的m个节点都当做是连边的终点（数字序号即节点名称）
+        repeated_nodes=[] #包含了所有节点的一个list，每个节点重复出现的次数等于它的度
+        source=m #第m+1个节点作为连边的起点，其名称是m，因为数字序号从0开始计算
+        while source<n: 
+            G.add_edges_from(zip([source]*m,targets)) #起点给每一个终点一条连边
+            repeated_nodes.extend(targets) #抢到边的终点产生一个分身，包含到repeated_nodes里
+            repeated_nodes.extend([source]*m) #给出m条的新节点产生m个分身，包含到repeated_nodes里
+            targets = random_subset(repeated_nodes,m) #进入下一轮，在repeated_nodes里随机选择m个节点作为新的终点，分身越多的节点被选中概率越大
+            source += 1 #进入下一轮，在当前最大数值的节点序号上+1，引入一个新的节点作为起点
+        return G
+
+##对模拟的BA模型的度分布进行分析
+
+<img src="/media/files/2014-06-27-cc1/BA.png" height="300px" width="400px" />
+
+上图展示了BA模型在m=2,n=200,500,1000的参数情况下的度分布。观察发现幂律度分布的指数总是与理论预测值吻合，与节点的数量无关。从Eq.(11)可以看出来，实际上富分布与每个节点携带的连边数也无关。需要注意的事为了避免被模拟得到的数据中的噪音干扰，本处使用了rank-order曲线，也就是Zipf's law来展示度分布。因为只有斜率是1才是用严格的Zipf's law，所以我们一般仍只称为rank-order曲线。在画这种曲线时，纵轴是节点的度，横轴是度的降序排名，如果两个节点度相等，则随机排名。最后，采取双对数坐标系。根据Lada Adamic的[说明](http://www.hpl.hp.com/research/idl/papers/ranking/ranking.html)，幂律分布在rank-order曲线的下的斜率b与原始的幂指数a的关系是a=1+1/b。因为我们的解析解是a=3，所以b应该是0.5（图中红线）。对数据进行双对数坐标系下的OLS拟合及绘图的python代码请参考[集智百科](http://wiki.swarma.net/index.php/Python)。如果想要使用更严格的幂律拟合方法，可以使用Python的[powerlaw](https://pypi.python.org/pypi/powerlaw)这个模块。
