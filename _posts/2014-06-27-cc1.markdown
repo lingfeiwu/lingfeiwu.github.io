@@ -399,6 +399,6 @@ $$
 
 上图比较了三个模型得到的网络，和SO在一周内形成的问答网络结构。为了强调度的分布，节点的大小与度平方成正比。可以看出，混合模型比BA和反BA模型都更接近真实网络。
 
-<img src="/media/files/2014-06-06-Master-function-and-attention-dynamics/comparison.png" height="300px" width="400px" />
+<img src="/media/files/2014-06-27-cc1/comparison.png" height="300px" width="400px" />
 
 上图展示了50天累积形成的SO问答网络，包含10381个问题（节点），可以看a=0.3时的混合模型很好地预测了真实的度分布。
