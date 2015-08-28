@@ -5,17 +5,17 @@ layout: page
 
 A
 
-> Scientist | Coder | Minimalist
+> Postdoc Researcher
 
 who is working at 
 
-> [CSID](https://csid.asu.edu)
+> [Center for Behavior, Institutions and the Environment, Arizona State University](https://csid.asu.edu)
 
 Mail 
 
-> Lingfei DOT Wu AT asu DOT edu
+> lingfeiw AT asu DOT edu
 
-to reach me, or download 
+to reach me, or download my
 
 > [CV](http://lingfeiwu.github.io/lingfeiwu.pdf)
 
