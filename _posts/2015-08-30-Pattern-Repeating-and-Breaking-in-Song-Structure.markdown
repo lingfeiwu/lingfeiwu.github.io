@@ -1,5 +1,5 @@
 ---
-title: Pattern-Repeating-and-Breaking-in-Song-Structure
+title: Pattern Repeating and Breaking in Song Structure
 layout: post
 guid:
 comments: true
