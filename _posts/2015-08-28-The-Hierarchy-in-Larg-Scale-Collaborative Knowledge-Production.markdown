@@ -3,9 +3,8 @@ title: The Hierarchy in Larg-Scale Collaborative Knowledge Production
 layout: post
 guid: 
 tags:
-  - hierarchy
-  - knowledge production
-  - stackoverflow
+  - knowledge
+  - network
 ---
 
 ![The hierarchy in Collaborative Knowledge Production.](http://ww3.sinaimg.cn/large/0069KTFugw1ev9yq51tvbj31560yogvs.jpg)

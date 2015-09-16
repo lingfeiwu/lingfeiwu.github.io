@@ -4,7 +4,6 @@ layout: post
 guid: 
 tags:
   - knowledge
-  - citation
   - network
   - map
 ---

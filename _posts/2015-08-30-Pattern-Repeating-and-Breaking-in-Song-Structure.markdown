@@ -5,8 +5,6 @@ guid:
 comments: true
 tags:
   - network
-  - song structure
-  - pattern
 ---
 
 

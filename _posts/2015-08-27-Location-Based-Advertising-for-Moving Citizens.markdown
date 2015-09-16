@@ -4,8 +4,6 @@ layout: post
 guid: 
 tags:
   - map
-  - space
-  - advertising
   - attention
 ---
 

@@ -3,9 +3,8 @@ title: The Science of Attention
 layout: post
 guid: 
 tags:
-  - attention dynamics
+  - attention
   - network
-  - data mining
 ---
 
 
