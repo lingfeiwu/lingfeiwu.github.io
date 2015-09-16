@@ -14,7 +14,7 @@ navigations:
     href: /about.html
   - title: Project
     class: fa fa-cubes
-    href: /project.html
+    href: /project/index.html
   - title: Archive
     class: fa fa-list-ul
     href: /archive.html

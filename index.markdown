@@ -6,7 +6,8 @@ layout: page
 
 
 
-## Welcome to my brave new world.
+## "All inadvertence is deliberate, every casual encounter is an engagement made beforehand, every humiliation is an act of penitence, every failurea mysterious victory, every death a suicide." 
+##Jorge Luis Borges, Deutsches Requiem, 1946
 
 
 
