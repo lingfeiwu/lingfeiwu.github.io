@@ -10,7 +10,7 @@ layout: page
 &nbsp;
 &nbsp;
 &nbsp;
-##Jorge Luis Borges, Deutsches Requiem, 1946
+#####Jorge Luis Borges, *Deutsches Requiem*, 1946
 
 
 
