@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: "君莫要逐云追梦"
+name: "Eadem mutata resurgo"
 markdown: rdiscount
 
 author: "lingfei"
@@ -9,19 +9,16 @@ atom-baseurl: "lingfeiwu.github.io"
 disqus: "gopherwood"
 
 navigations:
-  - title: Archive
-    class: fa fa-list-ul
-    href: /archive.html
-  - title: Tags
-    class: fa fa-tags
-    href: /tags.html
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Blogroll
+  - title: Project
+    class: fa fa-cubes
+    href: /project.html
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Link
     class: fa fa-link
     href: /links.html
-  - title: Subscribe
-    class: fa fa-rss
-    href: /atom.xml
 
