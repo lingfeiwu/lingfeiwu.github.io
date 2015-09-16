@@ -13,7 +13,7 @@ navigations:
     class: fa fa-user
     href: /about.html
   - title: Project
-    class: fa fa-cubes
+    class: fa fa-cube
     href: /project/index.html
   - title: Archive
     class: fa fa-list-ul
