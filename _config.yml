@@ -12,7 +12,10 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Project
+  - title: Tag
+    class: fa fa-tags
+    href: /tags.html
+  - title: Tag
     class: fa fa-tags
     href: /tags.html
   - title: Archive
