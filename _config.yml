@@ -14,7 +14,7 @@ navigations:
     href: /about.html
   - title: Project
     class: fa fa-th-large
-    href: /tags.html
+    href: /project/
   - title: Tag
     class: fa fa-tags
     href: /tags.html
