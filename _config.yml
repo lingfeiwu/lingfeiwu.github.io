@@ -10,18 +10,18 @@ disqus: "gopherwood"
 
 navigations:
   - title: About
-    class: fa fa-user
+    class: fa fa-user fa-lg
     href: /about.html
   - title: Project
-    class: fa fa-th-large
+    class: fa fa-th-large fa-lg
     href: /project/
   - title: Tag
-    class: fa fa-tags
+    class: fa fa-tags fa-lg
     href: /tags.html
   - title: Archive
-    class: fa fa-list-ul
+    class: fa fa-list-ul fa-lg
     href: /archive.html
   - title: Link
-    class: fa fa-link
+    class: fa fa-link fa-lg
     href: /links.html
 
