@@ -180,6 +180,7 @@ article {
 
 footer {
   width: 680px;
+  bottom: 0px;
   margin: 0 auto;
   display: block;
   color: #909090;
