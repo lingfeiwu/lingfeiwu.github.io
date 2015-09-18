@@ -12,8 +12,8 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Tag
-    class: fa fa-tags
+  - title: Project
+    class: fa fa-th-large
     href: /tags.html
   - title: Tag
     class: fa fa-tags
