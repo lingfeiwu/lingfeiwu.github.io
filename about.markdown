@@ -9,11 +9,11 @@ A
 
 working at 
 
-> [Center for Behavior, Institutions and the Environment, Arizona State University](https://csid.asu.edu)
+> [Knowledge Lab, University of Chicago](http://www.knowledgelab.org/)
 
 Mail 
 
-> lingfeiw AT asu DOT edu
+> wlf850927 AT gmail DOT com
 
 to reach me, or check my
 
