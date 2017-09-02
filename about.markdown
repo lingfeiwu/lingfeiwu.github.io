@@ -1,22 +1,18 @@
 ---
-title: Lingfei Wu
+title: Lingfei Wu 吴令飞 & Yu Zhang (Jason) 张煜
 layout: page
 ---
 
-A
+Two 
 
-> Postdoc Researcher
+> friends
 
-working at 
+helping 
 
-> [Knowledge Lab, University of Chicago](http://www.knowledgelab.org/)
+> broken hearts.
 
-Mail 
+Visit
 
 > wlf850927 AT gmail DOT com
 
-to reach me, or check my
-
-> [CV](http://lingfeiwu.github.io/lingfeiwu.pdf)
-
-to know more about me.
+to reach us.
