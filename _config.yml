@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: "Eadem mutata resurgo"
+name: "如故"
 markdown: rdiscount
 
 author: "lingfei"
