@@ -4,9 +4,22 @@ layout: page
 ---
 
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-
-### ”一切疏忽都经过深思熟虑，一切邂逅相遇都是事先约定，一切屈辱都是惩罚，一切失败都是神秘的胜利，一切死亡都是自尽。“
+”一切疏忽都经过深思熟虑，一切邂逅相遇都是事先约定，一切屈辱都是惩罚，一切失败都是神秘的胜利，一切死亡都是自尽。“
 &nbsp;
 &nbsp;
 &nbsp;
@@ -19,6 +32,17 @@ layout: page
 &nbsp;
 &nbsp;
 ####                                                                          Jorge Luis Borges, *Deutsches Requiem*, 1946
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
