@@ -23,7 +23,7 @@ layout: page
 &nbsp;
 &nbsp;
 &nbsp;
-<div style="text-align: right"> 博尔赫斯, *德意志安魂曲*, 1946</div>       
+<div style="text-align: right"> 博尔赫斯, 德意志安魂曲, 1946</div>       
 &nbsp;
 &nbsp;
 &nbsp;
@@ -31,7 +31,7 @@ layout: page
 &nbsp;
 &nbsp;
 &nbsp;
-<div style="text-align: right"> Jorge Luis Borges, *Deutsches Requiem*, 1946</div>    
+<div style="text-align: right"> Jorge Luis Borges, Deutsches Requiem, 1946</div>    
 &nbsp;
 &nbsp;
 &nbsp;
