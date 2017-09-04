@@ -9,11 +9,11 @@ Lingfei Wu (吴令飞)
 
 Yu Zhang (Jason, 张煜) 
 
-> A musician and a Web product manager at Beijing
+> An editor and a musician at Beijing
 
 Visit
 
-> wlf850927 AT gmail DOT com
+> wlf850927 AT gmail DOT com or 4happyending AT gmail DOT com 
 
 to reach us.
 
