@@ -273,6 +273,9 @@
             ".mbr-iconfont": {
               "font-size": "80px",
               "color": "#149dcc"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
             }
           },
           "_name": "counters1",
