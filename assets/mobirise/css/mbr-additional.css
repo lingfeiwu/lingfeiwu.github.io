@@ -3420,47 +3420,6 @@ body {
 .cid-rCmOWueFJM P {
   color: #b1a374;
 }
-.cid-rCmPEK8wfD {
-  background: linear-gradient(45deg, #138b8f, #073b4c);
-}
-.cid-rCmPEK8wfD .mbr-text,
-.cid-rCmPEK8wfD .mbr-section-btn {
-  text-align: left;
-}
-.cid-rCrtUxx2iA {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-rCrtUxx2iA h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 2rem;
-}
-.cid-rCrtUxx2iA p {
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 1.5rem;
-}
-.cid-rCrtUxx2iA .mbr-section-btn {
-  padding-top: 2.5rem;
-}
-.cid-rCrtUxx2iA .mbr-section-btn a {
-  margin: 0;
-}
-.cid-rCrtUxx2iA .mbr-text {
-  color: #767676;
-}
-.cid-rCrtUxx2iA .card-wrapper {
-  height: 100%;
-  background: #ffffff;
-}
-@media (max-width: 767px) {
-  .cid-rCrtUxx2iA .card:not(.last-child) {
-    padding-bottom: 2rem;
-  }
-}
 .cid-rCmPxbAMUx {
   padding-top: 60px;
   padding-bottom: 60px;
