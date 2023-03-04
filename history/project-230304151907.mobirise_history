@@ -48,7 +48,9 @@
     "versionPublish": "5.8.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "publishType": "local",
+    "publishPath": "file:///Users/ling/Documents/website/test"
   },
   "pages": {
     "index.html": {

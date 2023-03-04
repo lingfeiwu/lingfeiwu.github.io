@@ -48,7 +48,9 @@
     "versionPublish": "5.8.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "publishType": "local",
+    "publishPath": "file:///Users/ling/Documents/website/test"
   },
   "pages": {
     "index.html": {
@@ -612,17 +614,17 @@
           "_params": {
             "gallery": [
               {
-                "tags": "Responsive",
+                "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/shangbintang2021-2000x1682.png",
-                "thumb": "@PROJECT_PATH@/assets/images/shangbintang2021-2000x1682-800x673.png",
+                "image": "@PROJECT_PATH@/assets/images/lesongjia2022-1282x1114.png",
+                "thumb": "@PROJECT_PATH@/assets/images/lesongjia2022-1282x1114-800x695.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Shangbin Tang, Class of 2021",
-                "active": false
+                "caption": "Lesong Jia, Class of 2022",
+                "active": true
               },
               {
                 "tags": "Awesome",
@@ -638,17 +640,17 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/lesongjia2022-1282x1114.png",
-                "thumb": "@PROJECT_PATH@/assets/images/lesongjia2022-1282x1114-800x695.png",
+                "image": "@PROJECT_PATH@/assets/images/shangbintang2021-2000x1682.png",
+                "thumb": "@PROJECT_PATH@/assets/images/shangbintang2021-2000x1682-800x673.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Lesong Jia, Class of 2022",
-                "active": true
+                "caption": "Shangbin Tang, Class of 2021",
+                "active": false
               }
             ]
           }

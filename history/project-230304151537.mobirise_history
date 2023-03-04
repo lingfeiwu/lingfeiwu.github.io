@@ -48,7 +48,9 @@
     "versionPublish": "5.8.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "publishType": "local",
+    "publishPath": "file:///Users/ling/Documents/website/test"
   },
   "pages": {
     "index.html": {
@@ -612,6 +614,19 @@
           "_params": {
             "gallery": [
               {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/guangxuewen2019-1-1231x1056.png",
+                "thumb": "@PROJECT_PATH@/assets/images/guangxuewen2019-1-1231x1056-800x686.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Guangxue Wen, Class of 2019",
+                "active": true
+              },
+              {
                 "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -625,30 +640,17 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/guangxuewen2019-1-1231x1056.png",
-                "thumb": "@PROJECT_PATH@/assets/images/guangxuewen2019-1-1231x1056-800x686.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Guangxue Wen, Class of 2019",
-                "active": false
-              },
-              {
                 "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/lesongjia2022-1282x1114.png",
-                "thumb": "@PROJECT_PATH@/assets/images/lesongjia2022-1282x1114-800x695.png",
+                "image": "@PROJECT_PATH@/assets/images/cd-894x760.png",
+                "thumb": "@PROJECT_PATH@/assets/images/cd-894x760-800x680.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Lesong Jia, Class of 2022",
-                "active": true
+                "active": false
               }
             ]
           }
