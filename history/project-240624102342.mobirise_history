@@ -48,16 +48,7 @@
     "versionPublish": "5.8.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
-    "publishChangesOnly": true,
-    "favicon": false,
-    "mbrsiteDomain": "rhtzjxibu7",
-    "usedWebp": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
-    "cookiesAlert": false,
-    "gdpr": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {

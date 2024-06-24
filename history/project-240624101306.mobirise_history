@@ -49,15 +49,8 @@
     "screenshot": "screenshot.png",
     "imageResize": true,
     "publishChangesOnly": true,
-    "favicon": false,
-    "mbrsiteDomain": "rhtzjxibu7",
-    "usedWebp": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
-    "cookiesAlert": false,
-    "gdpr": false
+    "publishType": "local",
+    "publishPath": "file:///Users/ling/Documents/personal/website/test"
   },
   "pages": {
     "index.html": {
